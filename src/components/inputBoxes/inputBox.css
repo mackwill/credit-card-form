@@ -1,0 +1,12 @@
+.inputBoxLabel {
+  text-align: left;
+  margin-left: 4%;
+}
+
+.inputBox {
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  /* border-style: none; */
+  /* margin: 5px; */
+  font-size: 20px;
+}

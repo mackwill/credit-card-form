@@ -1,0 +1,11 @@
+.formContainer {
+  background-color: white;
+  height: 475px;
+  width: 500px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.inputBoxWrapper {
+  margin-top: 30%;
+}
