@@ -4,4 +4,10 @@ select.dropDownBox {
   background-color: white;
   border: 1px solid lightgray;
   font-size: 14px;
+  /* margin-right: ; */
+  /* appearance: none; */
 }
+/* 
+i {
+  text-align: right;
+} */

@@ -1,6 +1,6 @@
 .inputBoxLabel {
   text-align: left;
-  margin-left: 4%;
+  /* margin-left: 4%; */
 }
 
 .inputBox {
@@ -9,4 +9,5 @@
   /* border-style: none; */
   /* margin: 5px; */
   font-size: 20px;
+  box-sizing: border-box;
 }

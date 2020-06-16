@@ -4,7 +4,7 @@ import styles from "./inputBox.css";
 
 const inputBox = (props) => {
   return (
-    <div>
+    <div className="inputBoxContainer">
       <p className="inputBoxLabel">{props.boxName}</p>
       <input
         className="inputBox"

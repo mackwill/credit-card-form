@@ -15,16 +15,20 @@ class mainForm extends Component {
           <InputBox boxName="Credit Card Number" width="90%" />
           <InputBox boxName="Name on Credit Card" width="90%" />
 
-          <p id="expiryDateLabel">Expiry Date</p>
-          <div className="dropDownBoxWrapper">
-            <DropDownBox
-              dropDownListName="Month"
-              expiryArr={inputConstants.MONTHEXPIRY}
-            />
-            <DropDownBox
-              dropDownListName="Year"
-              expiryArr={inputConstants.YEAREXPIRY}
-            />
+          {/* <p id="expiryDateLabel">Expiry Date</p> */}
+          <div className="bottomInputWrapper">
+            <div className="dropDownBoxWrapper">
+              <p id="expiryDateLabel">Expiry Date</p>
+              <DropDownBox
+                dropDownListName="Month"
+                expiryArr={inputConstants.MONTHEXPIRY}
+              />
+              <DropDownBox
+                dropDownListName="Year"
+                expiryArr={inputConstants.YEAREXPIRY}
+              />
+            </div>
+            <InputBox boxName="CVV" width="90%" />
           </div>
         </div>
       </div>
