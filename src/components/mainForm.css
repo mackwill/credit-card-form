@@ -9,3 +9,16 @@
 .inputBoxWrapper {
   margin-top: 30%;
 }
+
+.dropDownBoxWrapper {
+  display: flex;
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 5%;
+  justify-content: space-between;
+}
+
+#expiryDateLabel {
+  text-align: left;
+  margin-left: 4%;
+}
