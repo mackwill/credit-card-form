@@ -4,7 +4,12 @@ import styles from "./inputBox.css";
 
 const inputBox = (props) => {
   return (
-    <div className="inputBoxContainer">
+    <div
+      className="inputBoxContainer"
+      style={{
+        flex: props.flex,
+      }}
+    >
       <p className="inputBoxLabel">{props.boxName}</p>
       <input
         className="inputBox"

@@ -12,8 +12,8 @@ class mainForm extends Component {
     return (
       <div className="formContainer">
         <div className="inputBoxWrapper">
-          <InputBox boxName="Credit Card Number" width="90%" />
-          <InputBox boxName="Name on Credit Card" width="90%" />
+          <InputBox boxName="Credit Card Number" width="100%" />
+          <InputBox boxName="Name on Credit Card" width="100%" />
 
           {/* <p id="expiryDateLabel">Expiry Date</p> */}
           <div className="bottomInputWrapper">
@@ -28,7 +28,7 @@ class mainForm extends Component {
                 expiryArr={inputConstants.YEAREXPIRY}
               />
             </div>
-            <InputBox boxName="CVV" width="90%" />
+            <InputBox boxName="CVV" width="60%" flex="40%" />
           </div>
         </div>
       </div>
